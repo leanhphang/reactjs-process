@@ -19,7 +19,7 @@ const App = () => {
         method: "GET",
         headers: {
           accept: "application/json",
-          Authorization: `Bearer ${import.meta.env.VITE_API_KEY}`,
+          Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5Y2IxZTdjNzIyNWQ0YWMxOThlMzUzNzEyMDZhZTYzOCIsIm5iZiI6MTczMjI1MTY3NS4yOTUxODIyLCJzdWIiOiI2NzNjYjRmYzUwNmRlZTdjMWEwNTY2YzAiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.cGtdtnqs9lPNSdfWgZBY2kgkeF7FvVgoBLTKQHja6Kg",
         },
       };
       const searchMovie = await fetch (url,options);
@@ -36,7 +36,7 @@ const App = () => {
         method: "GET",
         headers: {
           accept: "application/json",
-          Authorization: `Bearer ${import.meta.env.VITE_API_KEY}`,
+          Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5Y2IxZTdjNzIyNWQ0YWMxOThlMzUzNzEyMDZhZTYzOCIsIm5iZiI6MTczMjA5NDE5MS40NTMwMjM0LCJzdWIiOiI2NzNjYjRmYzUwNmRlZTdjMWEwNTY2YzAiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.9KLtiV2jiJLwLfJL_5iBDJkVusc1I13k2GUpzrJQ9ds',
         },
       };
 
